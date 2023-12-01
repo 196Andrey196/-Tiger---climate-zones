@@ -1,0 +1,5 @@
+D:/Unity-Projects/Tiger-climate-zones/.utmp/RelWithDebInfo/1z6e1f38/x86/CMakeFiles/edit_cache.dir
+D:/Unity-Projects/Tiger-climate-zones/.utmp/RelWithDebInfo/1z6e1f38/x86/CMakeFiles/rebuild_cache.dir
+D:/Unity-Projects/Tiger-climate-zones/.utmp/RelWithDebInfo/1z6e1f38/x86/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Unity-Projects/Tiger-climate-zones/.utmp/RelWithDebInfo/1z6e1f38/x86/FramePacing/CMakeFiles/edit_cache.dir
+D:/Unity-Projects/Tiger-climate-zones/.utmp/RelWithDebInfo/1z6e1f38/x86/FramePacing/CMakeFiles/rebuild_cache.dir
