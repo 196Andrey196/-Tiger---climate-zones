@@ -15,11 +15,11 @@ MonoBehaviour:
   wetherMode: Sunny
   curentWetherMode: Sunny
   abilityName: TakeAutomaticalSunny
-  discription: The sun automatically collects.
+  discription: The sun automatically collects
   icon: {fileID: -6909766172045017399, guid: b4becfd6d43abb04582744523d15083f, type: 3}
   cooldownAbility: 20
   durationAbility: 5
   costForShop: 250
-  hasBuyed: 1
+  hasBuyed: 0
   hasActive: 0
   abilityReload: 1

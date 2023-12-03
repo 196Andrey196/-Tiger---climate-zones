@@ -76,7 +76,7 @@ public class ItemBoard : MonoBehaviour
         {
             Ability ability = _allAbilities[i];
             Button newButton = Instantiate(_buttonPrefab, transform);
-            Image buttonImage = newButton.transform.GetChild(0).GetComponent<Image>();
+            Image buttonImage = newButton.transform.GetChild(0).GetChild(0).GetComponent<Image>();
             TextMeshProUGUI coins = newButton.transform.GetChild(1).GetChild(1).GetComponent<TextMeshProUGUI>();
             TextMeshProUGUI discraption = newButton.transform.GetChild(2).GetChild(1).GetChild(1).GetComponent<TextMeshProUGUI>();
             Button discraptionBtn = newButton.transform.GetChild(2).GetComponent<Button>();

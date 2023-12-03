@@ -15,11 +15,11 @@ MonoBehaviour:
   wetherMode: Unical
   curentWetherMode: Rainy
   abilityName: RestoreHealth
-  discription: If have not enogh health tap.
+  discription: If have not enogh health tap
   icon: {fileID: 4606908045521496030, guid: ddfac010ca839124792a29302188ff99, type: 3}
   cooldownAbility: 10
   durationAbility: 0
   costForShop: 350
-  hasBuyed: 1
+  hasBuyed: 0
   hasActive: 0
   abilityReload: 1

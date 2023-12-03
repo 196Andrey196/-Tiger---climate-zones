@@ -8,11 +8,14 @@ public class ButtonManager : MonoBehaviour
     private Animator _settingBTNAnimator;
     [SerializeField] private Button _play;
     [SerializeField] private GameObject _playMenu;
+    [SerializeField] private Button _shop;
+    [SerializeField] private GameObject _shopMenu;
 
     [SerializeField] private Button _exitGame;
     [SerializeField] private bool _activeMenuSetting;
 
     public static Action<bool> buttonInteractebl;
+    [SerializeField] private bool _openShopPanel;
 
     private void OnEnable()
     {
@@ -28,7 +31,27 @@ public class ButtonManager : MonoBehaviour
         _settingBTN.onClick.AddListener(ClickSettingBTN);
         _exitGame.onClick.AddListener(ExitGame);
         _play.onClick.AddListener(Play);
+        _shop.onClick.AddListener(OpenShop);
         _settingBTNAnimator = _settingBTN.GetComponent<Animator>();
+        _openShopPanel = false;
+    }
+
+    private void OpenShop()
+    {
+        if (!_openShopPanel)
+        {
+            _openShopPanel = true;
+            _play.gameObject.SetActive(false);
+            _exitGame.gameObject.SetActive(false);
+            _shopMenu.SetActive(true);
+        }
+        else
+        {
+            _openShopPanel = false;
+            _play.gameObject.SetActive(true);
+            _exitGame.gameObject.SetActive(true);
+            _shopMenu.SetActive(false);
+        }
     }
 
     private void ExitGame()

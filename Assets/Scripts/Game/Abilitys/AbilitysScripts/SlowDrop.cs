@@ -6,7 +6,7 @@ public class SlowDrop : MonoBehaviour
 {
     public static Action<float> useAbility;
     [SerializeField] private GameObject _dropPrefab;
-    [SerializeField] private float _startDropGravity;
+    private float _startDropGravity;
     private Rigidbody2D _dropRb;
 
     private void OnEnable()

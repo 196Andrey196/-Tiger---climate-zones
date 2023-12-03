@@ -25,7 +25,7 @@ public class PlayerInfo : MonoBehaviour
     }
     [SerializeField] private float _maxWetherLevel;
     public float maxWetherLevel { get { return _maxWetherLevel; } }
-    static public float coinsInWallet = 500;
+    static public float coinsInWallet = 600;
     [SerializeField] private float _curentCoinsCount;
     public float curentCoinsCount { get { return _curentCoinsCount; } set { if (value > 0) _curentCoinsCount = value; } }
     private void Awake()

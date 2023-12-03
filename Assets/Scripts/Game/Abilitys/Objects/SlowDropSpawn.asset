@@ -15,11 +15,11 @@ MonoBehaviour:
   wetherMode: Rainy
   curentWetherMode: Sunny
   abilityName: SlowDrop
-  discription: If you want slow drop tap this.
+  discription: If you want slow drop tap this
   icon: {fileID: 21300000, guid: a21df364d1507d948bcbf53328e44b46, type: 3}
   cooldownAbility: 20
   durationAbility: 5
   costForShop: 250
   hasBuyed: 1
   hasActive: 0
-  abilityReload: 0
+  abilityReload: 1

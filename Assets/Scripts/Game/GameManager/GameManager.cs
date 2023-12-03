@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         }
         foreach (var ability in ItemBoard.purchasedAbilities)
         {
-            if(ability.wetherMode == "Unical") ability.hasActive = true;
+            if (ability.wetherMode == "Unical") ability.hasActive = true;
             if (ability.hasActive == true && ability.wetherMode != "Unical") ability.hasActive = false;
             ability.abilityReload = false;
         }
@@ -26,8 +26,8 @@ public class GameManager : MonoBehaviour
 
         foreach (var ability in ItemBoard.purchasedAbilities)
         {
-            if(ability.curentWetherMode != "Unical")ability.curentWetherMode = wetherMod;
-            if (ability.wetherMode == wetherMod && ability.abilityReload == false && ability.curentWetherMode == wetherMod )
+            if (ability.curentWetherMode != "Unical") ability.curentWetherMode = wetherMod;
+            if (ability.wetherMode == wetherMod && ability.abilityReload == false && ability.curentWetherMode == wetherMod)
             {
                 ability.hasActive = hasActive;
             }

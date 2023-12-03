@@ -22,7 +22,7 @@ public class AbilityManager : MonoBehaviour
         {
             Umbrela.useAbility?.Invoke(clickedAbility.durationAbility);
         }
-        else if (clickedAbility.abilityName == "SlowDropSpawn")
+        else if (clickedAbility.abilityName == "SlowDrop")
         {
             SlowDrop.useAbility?.Invoke(clickedAbility.durationAbility);
         }
